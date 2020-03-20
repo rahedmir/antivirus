@@ -1,0 +1,12 @@
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\bin\Debug\Antivirus.exe.config
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\bin\Debug\Antivirus.exe
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\bin\Debug\Antivirus.pdb
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\bin\Debug\Antivirus.xml
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\obj\Debug\Antivirus.Form1.resources
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\obj\Debug\Antivirus.Resources.resources
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\obj\Debug\Antivirus.vbproj.GenerateResource.Cache
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\obj\Debug\Antivirus.exe
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\obj\Debug\Antivirus.xml
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\obj\Debug\Antivirus.pdb
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\bin\Debug\Guna.UI.dll
+C:\Users\Mir\Desktop\Antivirus\Antivirus\Antivirus\bin\Debug\Guna.UI.pdb
