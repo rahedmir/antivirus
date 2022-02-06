@@ -81,16 +81,16 @@
         End If
     End Sub
 
-    Public Sub mouseUP_X()
+    Public Sub mouse_UP()
         drag = False
     End Sub
-    Public Sub mouseDown_X()
+    Public Sub mouse_Down()
         drag = True
         mouseX = Windows.Forms.Cursor.Position.X - Me.Left
         mouseY = Windows.Forms.Cursor.Position.Y - Me.Top
 
     End Sub
-    Public Sub mouseMove_X()
+    Public Sub mouse_Move()
         If drag Then
             Me.Left = Windows.Forms.Cursor.Position.X - mouseX
             Me.Top = Windows.Forms.Cursor.Position.Y - mouseY
@@ -105,15 +105,15 @@
     End Sub
 
     Private Sub Panel1_MouseDown(sender As Object, e As MouseEventArgs) Handles Panel1.MouseDown
-        mouseDown_X()
+        mouse_Down()
     End Sub
 
     Private Sub Panel1_MouseMove(sender As Object, e As MouseEventArgs) Handles Panel1.MouseMove
-        mouseMove_X()
+        mouse_Move()
     End Sub
 
     Private Sub Panel1_MouseUp(sender As Object, e As MouseEventArgs) Handles Panel1.MouseUp
-        mouseUP_X()
+        mouse_UP()
     End Sub
 
     
@@ -135,15 +135,15 @@
     End Sub
 
     Private Sub Form1_MouseDown(sender As Object, e As MouseEventArgs) Handles Me.MouseDown
-        mouseDown_X()
+        mouse_Down()
     End Sub
 
     Private Sub Form1_MouseMove(sender As Object, e As MouseEventArgs) Handles Me.MouseMove
-        mouseMove_X()
+        mouse_Move()
     End Sub
 
     Private Sub Form1_MouseUp(sender As Object, e As MouseEventArgs) Handles Me.MouseUp
-        mouseUP_X()
+        mouse_UP()
     End Sub
 
     
@@ -383,9 +383,6 @@
         End Try
     End Sub
 
-    Private Sub PictureBox30_Click(sender As Object, e As EventArgs)
-
-    End Sub
 
     Private Sub PictureBox29_Click(sender As Object, e As EventArgs) Handles PictureBox29.Click
         Try
